@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+
+/* header */
+
+header {
+    margin-top: 20px;
+}
+
+.logo {
+    margin-bottom: 30px;
+    border-right: solid 2px rgb(240, 240, 240);
+    width: 170px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+
+/* nav */
+
+nav {
+    height: 35px;
+    margin-bottom: 20px;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    padding-right: 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(136, 136, 136);
+}
+
+nav li a:hover {
+    color: blue;
+}
+
+
+/* /nav */
+
+.background {
+    height: 550px;
+    padding-top: 380px;
+    padding-left: 50px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+.image {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    filter: brightness(80%);
+}
+
+.paragraph {
+    width: 500px;
+    color: white;
+}
+
+
+/* /header */
+
+
+/* main */
+
+main {
+    min-height: 750px;
+    margin-bottom: 20px;
+}
+
+.top {
+    height: 70px;
+    margin-bottom: 25px;
+}
+
+.top p {
+    color: rgb(169, 169, 169);
+}
+
+.column {
+    float: left;
+    margin-bottom: 15px;
+    color: rgb(181, 181, 181);
+}
+
+.left {
+    background-image: url(../img/img-1.jpg);
+    background-size: cover;
+    width: 20%;
+    height: 200px;
+    border-radius: 10px;
+    filter: brightness(80%);
+}
+
+.column_p {
+    margin-top: 210px;
+}
+
+.column_title {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+}
+
+.center {
+    background-image: url(../img/banner-2.jpg);
+    background-size: cover;
+    width: 56%;
+    height: 200px;
+    border-radius: 10px;
+    margin: 0 2%;
+    filter: brightness(80%);
+}
+
+.right {
+    background-image: url(../img/img-3.jpg);
+    background-size: cover;
+    width: 20%;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgb(171, 207, 231);
+    filter: brightness(80%);
+}
+
+
+/* /main */
+
+
+/* footer */
+
+footer {
+    height: 50px;
+    text-align: center;
+}
+
+.heart {
+    font-size: 25px;
+    color: red;
+}
+
+
+/* /footer */
